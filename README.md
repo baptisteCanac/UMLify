@@ -37,6 +37,7 @@ UMLify supporte **uniquement les fichiers Java** pour le moment.
    - tkinter
 
   Vous pouvez installer les modules manquants avec la commande ```pip3 install nom_du_module```
+
 4. 🖥**Lancez le script** ```main.py``` dans le terminal:
 
 Exemple de commande pour lancer le fichier ```main.py``` dans le terminal:
