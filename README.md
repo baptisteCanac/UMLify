@@ -26,7 +26,18 @@ UMLify supporte **uniquement les fichiers Java** pour le moment.
 ## Installation
 1. **Téléchargez** le fichier source.
 2. **Placez** tous vos fichiers de code dans le dossier **`fichiers`**.
-3. 🖥**Lancez le script** ```main.py``` dans le terminal:
+   (Des fichiers y sont deja présents mais ils ne servent que de démo)
+3. Vérifiez que tous les modules sont installés sur votre machine:
+   - os
+   - logging
+   - sys
+   - time
+   - threading
+   - PyQt6
+   - tkinter
+
+  Vous pouvez installer les modules manquants avec la commande ```pip3 install nom_du_module```
+4. 🖥**Lancez le script** ```main.py``` dans le terminal:
 
 Exemple de commande pour lancer le fichier ```main.py``` dans le terminal:
 ```sh
