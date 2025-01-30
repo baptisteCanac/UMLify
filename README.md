@@ -34,5 +34,5 @@ python3 main.py
 ```
 ---
 
-## 📞Contact
+## 📞 Contact
 Si vous souhaitez me contacter ou si vous trouvez un bug, n'hésitez pas ! Je répondrai au plus vite. 
