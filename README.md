@@ -37,6 +37,7 @@ UMLify supporte **uniquement les fichiers Java** pour le moment.
    - tkinter
 
      Vous pouvez installer les modules manquants avec la commande ```pip3 install nom_du_module```
+   - graphviz qui nécessite non seulement une installation avec ```pip3``` mais aussi une installation plus classique en l'ajoutant au PATH
 
 4. 🖥**Lancez le script** ```main.py``` dans le terminal:
 
