@@ -4,6 +4,7 @@ from PyQt6.QtGui import QMouseEvent
 from PyQt6.QtGui import QAction
 
 import sys
+from utilities import *
 
 class DraggableTextEdit(QTextEdit):
     """Une QTextEdit déplaçable avec la souris"""
@@ -35,6 +36,8 @@ class AffichagePOO(QMainWindow):
     """Affiche les classes sous forme de QTextEdit avec une barre de défilement horizontale et un espacement vertical"""
     def __init__(self, a_afficher):
         super().__init__()
+
+        self.a_afficher = a_afficher
 
         self.setWindowTitle("UML")
         self.setGeometry(100, 100, 800, 400)
@@ -85,6 +88,9 @@ class AffichagePOO(QMainWindow):
         # Définir la zone de défilement comme widget central
         self.setCentralWidget(self.scroll_area)
 
+    def export_diagram(self):
+        exportPOO(self.a_afficher, self)
+
     def contextMenuEvent(self, event):
         """Affiche un menu contextuel personnalisé au clic droit"""
         menu = QMenu(self)
@@ -93,8 +99,8 @@ class AffichagePOO(QMainWindow):
         action_info = QAction("Informations", self)
         action_quit = QAction("Quitter", self)
 
-        export_button.triggered.connect(lambda: QMessageBox.information(self, "Erreur", "Fonction non implémentée"))
-        action_info.triggered.connect(lambda: QMessageBox.information(self, "Info", "version 1.0\n\nBaptiste Canac"))
+        export_button.triggered.connect(self.export_diagram)
+        action_info.triggered.connect(self.export_diagram)
         action_quit.triggered.connect(self.close)
 
         menu.addAction(export_button)
