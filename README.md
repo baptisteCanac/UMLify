@@ -75,7 +75,6 @@ Et comme rendu d'export:
 UMLify supporte **uniquement les fichiers Java** pour le moment.
 
 **À venir** :
-- Ajout d'une fonctionnalité d'export du diagramme
 - Ajout du support pour **HTML**.
 
 ---
