@@ -12,6 +12,17 @@ UMLify effectue une **analyse syntaxique et sémantique** du code en fonction de
 
 Il génère ensuite un **affichage moderne et épuré** basé sur les résultats de l'analyse.
 
+- avec un clic droit dans une zone vide, vous pourrez exporter votre diagramme en plusieurs fichiers (voir partie export)
+
+--
+
+## Export
+
+Avec un clic droit dans un endroit vide vous aurez accés à la fonction d'export de votre diagramme
+<img width="802" alt="Capture d’écran 2025-02-02 à 15 44 06" src="https://github.com/user-attachments/assets/b3ec9b20-7870-49fe-9e9d-6f6923ed8bf4" />
+
+Un fois cliqué retrouvez votre résultat dans le dossier ```resultat
+
 ---
 
 ## 🛠️ Langages supportés
@@ -39,8 +50,6 @@ UMLify supporte **uniquement les fichiers Java** pour le moment.
      Vous pouvez installer les modules manquants avec la commande ```pip3 install nom_du_module```
    
    - graphviz qui nécessite non seulement une installation avec ```pip3``` mais aussi une installation plus classique en l'ajoutant au PATH
-        
-     Ce module est nécéssaire pour la future fonction d'export, sans elle l'application fonctionnera mais ne pourra pas exporter le diagramme final
 
 5. 🖥**Lancez le script** ```main.py``` dans le terminal:
 
