@@ -21,7 +21,53 @@ Il génère ensuite un **affichage moderne et épuré** basé sur les résultats
 Avec un clic droit dans un endroit vide vous aurez accés à la fonction d'export de votre diagramme
 <img width="802" alt="Capture d’écran 2025-02-02 à 15 44 06" src="https://github.com/user-attachments/assets/b3ec9b20-7870-49fe-9e9d-6f6923ed8bf4" />
 
-Un fois cliqué retrouvez votre résultat dans le dossier ```resultat
+Un fois cliqué retrouvez votre résultat dans le dossier ```resultat```
+
+Avec un fichier Cours.java:
+```java
+package com.mycompany.td01;
+
+public class Cours{
+    final private String intitule;
+    private Integer ECTS;
+    private Enseignant ens;
+    
+    public Cours(String intitule, Integer credits){
+        this.intitule = intitule;
+        this.ECTS = credits;
+    }
+    
+    public String getIntitule(){
+        return intitule; 
+    }
+    
+    public Integer getECTS(){
+        return ECTS;
+    }
+    public void setECTS(Integer ECTS) {
+        this.ECTS = ECTS;
+    }
+    
+    public Enseignant getEns(){
+        return ens;
+    }
+    public void setEns(Enseignant ens){
+        this.ens = ens;
+    }
+    
+    public String toString(){
+        return "Cours{" + "intitule=" + intitule + ", ECTS=" + ECTS + "}";
+    }
+}
+```
+
+UMLify va renvoyer comme résultat visuel dans l'application:
+
+<img width="253" alt="Capture d’écran 2025-02-02 à 15 50 12" src="https://github.com/user-attachments/assets/0e8da09c-5b5a-47a8-8f7d-63d069f13157" />
+
+Et comme rendu d'export:
+
+![diagramme_Cours](https://github.com/user-attachments/assets/2e824a50-940d-4dc1-920c-5613d0b24b53)
 
 ---
 
