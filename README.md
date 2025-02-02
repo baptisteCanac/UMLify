@@ -14,7 +14,7 @@ Il génère ensuite un **affichage moderne et épuré** basé sur les résultats
 
 - avec un clic droit dans une zone vide, vous pourrez exporter votre diagramme en plusieurs fichiers (voir partie export)
 
---
+---
 
 ## Export
 
