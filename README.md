@@ -74,9 +74,6 @@ Et comme rendu d'export:
 ## 🛠️ Langages supportés
 UMLify supporte **uniquement les fichiers Java** pour le moment.
 
-**À venir** :
-- Ajout du support pour **HTML**.
-
 ---
 
 ## Installation
